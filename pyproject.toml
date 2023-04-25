@@ -8,6 +8,9 @@ authors = ["Replit user <<>>"]
 python = "^3.10"
 selenium = "^4.8.3"
 webdriver-manager = "^3.8.6"
+python-ian-utils = "^1.0"
+playwright = "^1.32.1"
+pandas = "^2.0.1"
 
 [tool.poetry.dev-dependencies]
 
