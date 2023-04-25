@@ -53,6 +53,8 @@ def main():
 		
 		# getting all of the business listings from the webpage by their x-path.
 		listings = page.locator('//div[@role="article"]').all()
+		
+		# let's see how many listings Google gave to us (per page)
 		print(len(listings))
 
 		# create business list object
